@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.page-header .container {
+    position: relative;
+}
+
+.page-header__photo {
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+
+.contacts-list__item,
+.description-list__item {
+    margin-bottom: 5px;
+}
+
+.summary__text {
+    width: 850px;
+}
+
+.summary__text,
+.education__text,
+.english__text {
+    margin-left: 25px;
+}
+
+.page-footer__text {
+    font-size: 12px;
+    text-align: center;
+}
